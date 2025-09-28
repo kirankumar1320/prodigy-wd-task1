@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProDigy Infotech – Comillas Negras</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav id="navbar" aria-label="Main Navigation">
+    <div class="logo">ProDigy Infotech</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <div class="content">
+      <h1>Welcome to My Space</h1>
+      <p>
+        <strong>ProDigy Infotech</strong> is a forward-thinking tech company dedicated to empowering young minds through innovation, education, and real-world experience. We specialize in building digital solutions and nurturing talent through hands-on learning and impactful projects.
+      </p>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="content">
+      <h2>Internship Program</h2>
+      <p>
+        Our internship program offers students and fresh graduates the opportunity to work on live projects, gain mentorship, and develop industry-ready skills. We believe in learning by doing.
+      </p>
+      <p><strong>Internship ID:</strong> 123456789</p>
+      <p><strong>Manager:</strong> Mr. KK</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="content">
+      <h2>Projects</h2>
+      <p>Explore our latest innovations and client success stories.</p>
+      <p><strong>Focus Area:</strong> Web Development</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="content">
+      <h2>Contact Us</h2>
+      <p>Reach out for collaborations, queries, or career opportunities.</p>
+      <p><strong>Phone:</strong> 123456789</p>
+    </div>
+  </section>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      const navBarElement = document.getElementById('navbar');
+      const hasScrolledEnough = window.scrollY > 50;
+
+      if (hasScrolledEnough) {
+        navBarElement.classList.add('scrolled');
+      } else {
+        navBarElement.classList.remove('scrolled');
+      }
+    });
+  </script>
+</body>
+</html>
